@@ -1,0 +1,19 @@
+<html lang="en" ng-app="">
+<head>
+<meta charset="UTF-8">
+<title> Angular JS || Hands On !!</title>
+<script type="text/javascript" src="angular.js"></script>
+</head>
+<body ng-app= "">
+ Your name : <input type="text" ng-model ="name"> <br/>
+ Welcome {{ 'India ' + name | uppercase}} <br/>
+ Currency : <input type="text" ng-model ="price"> <br/>
+ Welcome {{price | currency}} <br/>
+ Welcome {{price | currency : "Rs. :0"}} <br/>
+ Welcome {{price | number}} <br/>
+ Welcome {{price | number :5}}
+ <script type="text/javascript">
+ 	
+ </script>  
+</body>
+</html>
